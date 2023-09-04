@@ -102,35 +102,61 @@
     <!-- ... är att använda elementet figure, med tillhörande figcaption -->
 
     <!-- ett galleri -->
-    <h4>Ljudfiler</h4>
 
-    <figure>
-        <!-- ett ljudklipp från en koltrast -->
-        <!-- ett ljud kan spela med elementet audio -->
-        <!-- ett exempel på en relativ sökväg -->
-        <!-- OBS - för att få 'spelkontroller' till autio elementet anges attributet 'controls' -->
-        <audio src="audio/Turdus_merula_-_Common_Blackbird_XC541784.mp3" controls></audio>
+    <!-- ett exempel på ett semantiskt omslutande element som passar här är section -->
+    <section>
 
-        <figcaption>
-            <a href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC541784.mp3">Benoît Van
-                Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
-            Commons
-        </figcaption>
-    </figure>
+        <h4>Ljudfiler</h4>
 
+        <figure>
+            <!-- ett ljudklipp från en koltrast -->
+            <!-- ett ljud kan spela med elementet audio -->
+            <!-- ett exempel på en relativ sökväg -->
+            <!-- OBS - för att få 'spelkontroller' till autio elementet anges attributet 'controls' -->
+            <audio src="audio/Turdus_merula_-_Common_Blackbird_XC541784.mp3" controls></audio>
+            <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC541784.mp3">Benoît
+                    Van
+                    Hecke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
+                Commons
+            </figcaption>
+        </figure>
 
-    <figure>
-        <!-- ett exempel på en absolut sökväg -->
-        <audio src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Turdus_merula_-_Common_Blackbird_XC442903.mp3"
-            controls></audio>
+        <figure>
+            <!-- ett exempel på en absolut sökväg -->
+            <audio
+                src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Turdus_merula_-_Common_Blackbird_XC442903.mp3"
+                controls></audio>
 
-        <figcaption>
-            <a href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC442903.mp3">James
-                Ray</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
-            Commons
-        </figcaption>
-    </figure>
+            <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC442903.mp3">James
+                    Ray</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
+                Commons
+            </figcaption>
+        </figure>
 
+    </section>
+
+    <!-- ett galleri med videoklipp -->
+    <section>
+        <h4>Videofiler</h4>
+        <!-- ett filmklipp kan visas med elementet video -->
+
+        <figure>
+            <video src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Turdus_merula_singing.webm" width="300" height="200" controls></video>
+            <figcaption>
+                <a href="https://commons.wikimedia.org/wiki/File:Turdus_merula_singing.webm">Larske</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+            </figcaption>
+        </figure>
+
+        <figure>
+            <!-- OBS - via filen .gitignore finns inte filer i mappen i versionshantering... -->
+            <video src="video/Turdus_merula_KOS.webm" width="300" controls></video>
+            <figcaption><a href="https://commons.wikimedia.org/wiki/File:2022-06-08_LJUBLJANA_Botani%C4%8Dni_vrt_PASSERIFORMES_Turdus_merula_KOS.webm">NaIzletuSi ™</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, via Wikimedia Commons</figcaption>
+        </figure>
+        <!-- uppgift: lägg till minst ett videoklipp till - om du vill kanske du kan hitta en lågullöst video och ladda ner klippet i en mapp som kan passa -->
+
+    </section>
 
 
 
